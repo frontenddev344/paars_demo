@@ -4,10 +4,10 @@ function openNav() {
     document.getElementById("menuOverlay").classList.add("active");
 }
 
-function closeNav() {
-    document.getElementById("mySidenavs").classList.remove("open");
-    document.getElementById("menuOverlay").classList.remove("active");
-}
+// function closeNav() {
+//     document.getElementById("mySidenavs").classList.remove("open");
+//     document.getElementById("menuOverlay").classList.remove("active");
+// }
 
 // Ripple effect on button
 document.addEventListener('DOMContentLoaded', function () {

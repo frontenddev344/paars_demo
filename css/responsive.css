@@ -4,7 +4,7 @@
         padding: 40px 0 40px;
     }
 
-    .our_blog {
+    /* .our_blog {
         padding: 40px 0;
     }
 
@@ -20,7 +20,7 @@
 
     .hero-content-left h1 {
         font-size: 50px;
-    }
+    } */
 
     .btn-contact-wrapper {
         margin-top: 40px;
@@ -169,7 +169,7 @@
 }
 
 @media (max-width: 991px) {
-    .hero-content-left {
+    /* .hero-content-left {
         margin-bottom: 40px;
     }
 
@@ -280,7 +280,7 @@
     .modal-contact-info a {
         font-size: 14px;
     }
-
+ */
 
 }
 
@@ -299,7 +299,7 @@
         max-width: 300px;
     }
 
-    .menu-list.open {
+    /* .menu-list.open {
         width: 100%;
         transition: width 0.3s ease;
     }
@@ -321,7 +321,7 @@
     .footer-menu-wrapper.footer-menu-left {
         margin-top: 20px;
         text-align: center;
-    }
+    } */
 
     ul.footer-menu {
         justify-content: center;
