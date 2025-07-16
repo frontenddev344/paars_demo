@@ -1,0 +1,38 @@
+.menu-list ul li.current-menu-item a {
+    color: var(--quinary-color);
+}
+
+.menu-list ul li.current-menu-item a:hover::after,
+.menu-list ul li.current-menu-item a::after {
+    width: 100%;
+}
+
+.modal-form textarea {
+    height: 137px;
+}
+
+.modal-form input.wpcf7-form-control.wpcf7-submit {
+    background: #003C43;
+    color: #fff;
+    padding: 12px 0;
+    border-radius: 6px;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    font-family: 'Manrope';
+    display: inline-block;
+    border: 1px solid #003C43 !important;
+    transition: all 0.3s ease;
+    margin-bottom: 0;
+    width: 100%;
+}
+
+.modal-form input.wpcf7-form-control.wpcf7-submit:hover {
+    background: transparent;
+    border: 1px solid #003C43 !important;
+    color: #003C43;
+}
+
+.modal-form form  p {
+    margin: 0;
+}

@@ -1,0 +1,527 @@
+/* Responsive styles */
+@media (max-width: 1199px) {
+    .hero-section {
+        padding: 40px 0 40px;
+    }
+
+    .our_blog {
+        padding: 40px 0;
+    }
+
+    .together_for_better_governance {
+
+        padding: 0 0 40px 0;
+
+    }
+
+    .why_choose_paars {
+        padding: 40px 0 20px;
+    }
+
+    .hero-content-left h1 {
+        font-size: 50px;
+    }
+
+    .btn-contact-wrapper {
+        margin-top: 40px;
+    }
+
+    .our_service {
+        padding: 40px 0;
+    }
+
+    .how_we_work {
+        padding: 40px 0;
+    }
+
+    .approach-grid {
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "card1"
+            "card2"
+            "center"
+            "card3"
+            "card4";
+    }
+
+    .feature-box:nth-child(1) {
+        grid-area: card1;
+    }
+
+    .feature-box:nth-child(2) {
+        grid-area: card2;
+    }
+
+    .feature-box:nth-child(3) {
+        grid-area: center;
+    }
+
+    .feature-box:nth-child(4) {
+        grid-area: card3;
+    }
+
+    .feature-box:nth-child(5) {
+        grid-area: card4;
+    }
+
+
+    .left-col .feature-box {
+        width: 50%;
+    }
+
+    .left-col {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .right-cols {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .footer-menu-wrapper ul {
+        gap: 20px;
+
+    }
+
+    .bottom-footer {
+
+        text-align: center;
+    }
+
+    .right-cols .feature-box,
+    .left-col .feature-box {
+        width: 48%;
+        height: 100%;
+    }
+
+    .image-center img {
+        height: 400px;
+    }
+
+    .text-main h1 {
+        font-size: 50px;
+        line-height: 60px;
+    }
+
+    .who-we-are {
+        padding: 40px 0px;
+    }
+
+    .pras_has {
+        font-size: 38px;
+        line-height: 48px;
+    }
+
+    .btn-contact-wrapper {
+        margin-top: 20px;
+    }
+
+    .who-we-do {
+        padding: 40px 0;
+    }
+
+    .why-it-matter {
+        padding: 40px 0px;
+    }
+
+    .approach {
+        padding: 40px 0px;
+    }
+
+    section.Engagement {
+        padding: 40px 0px;
+    }
+
+    .our_service_main {
+        margin: 40px 0;
+    }
+
+    .our_service_main .row {
+        row-gap: 20px;
+    }
+
+    .approach .feature-box img {
+        text-align: left;
+    }
+
+    .modal-form-inner img {
+        margin-bottom: 30px;
+    }
+
+    .modal-form h3 {
+        font-size: 30px;
+
+    }
+
+    .modal-form p {
+        font-size: 16px;
+    }
+
+    .modal-form input,
+    .modal-form textarea {
+
+        padding: 14px 12px;
+
+    }
+
+
+}
+
+@media (max-width: 991px) {
+    .hero-content-left {
+        margin-bottom: 40px;
+    }
+
+    .center-footer-inner h3 {
+        line-height: 30px;
+    }
+
+    .footer-menu-wrapper ul li a {
+
+        font-size: 16px;
+    }
+
+    .footer-menu-wrapper ul {
+        gap: 10px;
+    }
+
+    .together_why {
+        margin: 30px 0;
+    }
+
+    .together_why {
+        max-width: 100%;
+    }
+
+    .text-main {
+        max-width: 100%;
+        margin-bottom: 40px;
+    }
+
+    .text-section {
+        max-width: 100%;
+        margin-top: 30px;
+    }
+
+    .feature-box {
+        border-right: unset;
+    }
+
+    .feature-box {
+        padding: 0 40px 40px 20px;
+    }
+
+    .feature-icon {
+        margin-bottom: 20px;
+    }
+
+    .feature-box.last_child {
+        padding-bottom: 0;
+    }
+
+    .text-main {
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .who-we-do .image-section img {
+        height: auto;
+        max-width: 100%;
+    }
+
+    .image-section img {
+        height: auto;
+        max-width: 100%;
+    }
+
+    .matter_img1 img,
+    .matter_img2 img {
+        width: 100%;
+        height: auto;
+    }
+
+    .what-we-offer-item-wrapper {
+        padding-top: 20px;
+    }
+
+    .what-we-offer {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .matter_img2 {
+        margin-top: 30px;
+    }
+
+    .modal-form-inner img {
+        margin-bottom: 15px;
+    }
+
+
+
+    .modal-form h3 {
+        font-size: 24px;
+    }
+
+    .modal-contact-info a {
+        font-size: 16px;
+    }
+
+    .modal-contact-info p {
+        font-size: 14px;
+    }
+
+    .modal-contact-info {
+        padding: 20px 10px;
+
+    }
+
+    .modal-contact-info a {
+        font-size: 14px;
+    }
+
+
+}
+
+@media (max-width: 767px) {
+    .menu-list {
+        width: 0;
+        position: fixed;
+        top: 0;
+        left: 0;
+        background: var(--quinary-color);
+        height: 100vh;
+        overflow-x: hidden;
+        transition: width 0.3s ease;
+        z-index: 9999;
+        padding-top: 60px;
+        max-width: 300px;
+    }
+
+    .menu-list.open {
+        width: 100%;
+        transition: width 0.3s ease;
+    }
+
+    .modal-image img {
+        left: 0;
+        bottom: 0;
+    }
+
+    .what-we-offer-item-content p br {
+
+        display: none;
+    }
+
+    .articles .row .col-lg-4.col-md-6 {
+        margin-bottom: 30px;
+    }
+
+    .footer-menu-wrapper.footer-menu-left {
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    ul.footer-menu {
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .right-col {
+        margin-top: 40px;
+    }
+
+    .col-lg-4.col-md-4.one {
+        order: 2;
+    }
+
+    .col-lg-4.col-md-4.two {
+        order: 1;
+    }
+
+
+
+    .col-lg-4.col-md-4.three {
+        order: 3;
+    }
+
+    .menu-list ul {
+        flex-direction: column;
+        padding-left: 20px;
+        gap: 20px;
+    }
+
+    .menu-icon span {
+        font-size: 26px;
+        font-weight: 400;
+        color: var(--quinary-color);
+    }
+
+    .right-col {
+        max-width: 100%;
+    }
+
+    span.menu-close {
+        padding: 6px 6px;
+        display: block;
+        border-radius: 6px;
+        width: 45px;
+        height: 45px;
+        text-align: center;
+        box-shadow: 0 0 25px rgb(0 0 0 / .1);
+        line-height: 32px;
+        background: var(--quaternary-color);
+        color: var(--primary-color);
+        position: absolute;
+        right: 7px;
+        top: 5px;
+        font-size: 18px;
+    }
+
+    .menu-icon {
+        display: block;
+    }
+
+    .menu-list ul li a {
+        color: var(--quaternary-color);
+        font-size: 18px;
+    }
+
+    .menu-list ul li a.active {
+        color: var(--quaternary-color);
+    }
+
+    .hero-content-left h1 {
+        font-size: 40px;
+    }
+
+    .btn-contact-wrapper {
+        margin-top: 20px;
+    }
+
+    .hero-content-right img {
+        height: auto;
+
+    }
+
+    .left-col .feature-box {
+        width: 100%;
+    }
+
+    .left-col {
+        display: block;
+    }
+
+    .right-cols {
+        display: block;
+        justify-content: space-between;
+    }
+
+    .right-cols .feature-box {
+        width: 100%;
+    }
+
+    .building-better .row .col-lg-4.col-md-4 {
+        margin-bottom: 30px;
+    }
+
+    .text-main h1 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    .right-cols .feature-box,
+    .left-col .feature-box {
+        height: auto;
+    }
+
+    .pras_has {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .section_title {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .what-we-offer-item.what-we-offer-item-second .row {
+        flex-direction: column-reverse;
+    }
+
+    .what-we-offer-item-content-inner-icon img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .what-we-offer-item-second .what-we-offer-item-content {
+        text-align: left;
+    }
+
+    .what-we-offer-item-content-inner-icon {
+        margin-bottom: 20px;
+        text-align: left;
+    }
+
+
+
+    .approach-grid .feature-icon img {
+        width: 40px;
+        height: 40px;
+        margin-bottom: 10px;
+    }
+
+    .modal-inner {
+        flex-direction: column;
+    }
+
+    .modal-content {
+        height: 700px;
+        overflow: auto;
+    }
+
+    .modal-image {
+        flex: auto;
+        height: 300px;
+    }
+
+    .modal-contact-info {
+        margin-top: 0;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+    }
+
+    .modal-image,
+    .modal-form {
+        min-width: 0;
+        width: 100%;
+        padding: 18px;
+    }
+
+    .modal-content {
+        padding: 0;
+    }
+}
+
+@media (max-width: 575px) {
+    .hero-content-left h1 {
+        font-size: 32px;
+    }
+
+    .section_title {
+        font-size: 30px;
+    }
+
+    .text-main h1 {
+        font-size: 32px;
+        line-height: 42px;
+    }
+
+    .modal-form input,
+    .modal-form textarea {
+        padding: 10px 12px;
+    }
+}
