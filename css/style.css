@@ -118,7 +118,7 @@ header.is-sticky {
     transition: width 0.3s cubic-bezier(.77, 0, .18, 1);
 }
 
-.menu-list ul li a:hover::after,
+
 .menu-list ul li a.active::after {
     width: 100%;
 }
@@ -216,7 +216,7 @@ span.menu-close {
     width: 100%;
     margin-top: 12px;
     margin-bottom: 20px;
-    max-width: 583px;
+    max-width: 100%;
     animation: fadeInUp 1s ease-out 0.4s both;
 
 }
@@ -261,6 +261,7 @@ span.menu-close {
 
 .btn-contact:hover {
     background-color: #002a30;
+    border: 1px solid;
 }
 
 .icon-container {
@@ -494,6 +495,10 @@ span.menu-close {
     letter-spacing: 0;
     color: var(--quinary-color);
     position: relative;
+}
+
+.our_service_card:hover .service_area a {
+    display: none;
 }
 
 .service_area a::after {
